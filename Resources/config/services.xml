@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="lernpad_repository_resolver" class="Lernpad\RepositoryResolverBundle\ArgumentResolver\RepositoryValueResolver">
+            <argument type="service" id="doctrine.orm.entity_manager" />
+            <call method="setContainer">
+                <argument type="service" id="service_container" />
+            </call>
+            <tag name="controller.argument_value_resolver" priority="50" />
+        </service>
+    </services>
+</container>

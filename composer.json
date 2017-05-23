@@ -1,0 +1,22 @@
+{
+    "name":"lernpad/repository-resolver",
+    "type": "symfony-bundle",
+    "description": "Allow add Doctrine repository as type-hinted action argument in SF controller",
+    "keywords": ["doctrine", "repository"],
+    "homepage": "https://github.com/lernpad/repository-resolver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Chernov",
+            "email": "lernpad@mail.ru"
+        }
+    ],
+    "require":{
+        "php": ">=5.5.9",
+        "doctrine/doctrine-bundle": "^1.6",
+	"symfony/symfony": "3.2.*"
+    },
+    "autoload": {
+        "psr-4": { "Lernpad\\RepositoryResolverBundle\\": "" }
+    }
+}
