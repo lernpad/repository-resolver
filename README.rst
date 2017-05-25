@@ -1,4 +1,4 @@
-Getting Started With LernpadRepositoryResolverBundle
+Getting Started With LernpadRepositoryResolverBundle - Deprecated, in core of Symfony 3.3+
 ====================================================
 
 Step 1: Download LernpadRepositoryResolverBundle using composer
