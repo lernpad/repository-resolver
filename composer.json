@@ -13,8 +13,8 @@
     ],
     "require":{
         "php": ">=5.5.9",
-        "doctrine/doctrine-bundle": "^1.6",
-	"symfony/symfony": "3.2.*"
+        "symfony/framework-bundle": "^2.7 || ^3.0",
+        "doctrine/doctrine-bundle": "^1.6"
     },
     "autoload": {
         "psr-4": { "Lernpad\\RepositoryResolverBundle\\": "" }
